@@ -1,0 +1,61 @@
+body{
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+    width: 200px;
+}
+
+h1, h2, em {
+    color: indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+img:not(#logo){
+    border-radius: 10%;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nota {
+    opacity: 70%;
+}
+
+a:link {
+    color: green;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+
+strong{
+    color:pink;
+    padding: 3px;
+    font-size: 30px;
+    background-color: purple;
+}
+
+a[href*="http"]{
+    background-image: url(img/globo.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}   
